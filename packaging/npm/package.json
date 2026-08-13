@@ -1,0 +1,45 @@
+{
+  "name": "lobbyte",
+  "version": "0.1.2",
+  "description": "Meet another human while your agent works.",
+  "author": "xfey",
+  "license": "Apache-2.0",
+  "homepage": "https://lobbyte.online",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfey/lobbyte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xfey/lobbyte/issues"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "terminal",
+    "tui"
+  ],
+  "bin": {
+    "lobbyte": "bin/lobbyte.js"
+  },
+  "files": [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES",
+    "bin/lobbyte.js",
+    "vendor/lobbyte-darwin-arm64",
+    "vendor/lobbyte-darwin-x64",
+    "checksums.txt",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "lobbyteRelease": {
+    "relayURL": "wss://relay.lobbyte.online/v1/ws",
+    "rulesVersion": "candidate-1",
+    "rulesURL": "",
+    "privacyURL": ""
+  }
+}

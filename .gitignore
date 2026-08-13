@@ -1,0 +1,39 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors and local workspace files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+.tmp/
+.cache/
+
+# Common JavaScript / TypeScript outputs
+node_modules/
+dist/
+build/
+coverage/
+*.tgz
+
+# Go test and profiling outputs
+*.test
+*.prof
+coverage.out
+
+# Local release artifacts
+artifacts/
+/lobbyte
+/packaging/npm/vendor/lobbyte-darwin-arm64
+/packaging/npm/vendor/lobbyte-darwin-x64
