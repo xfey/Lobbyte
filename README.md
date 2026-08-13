@@ -4,6 +4,14 @@
 
 Lobbyte is a lightweight macOS TUI for meeting another builder while coding agents work.
 
+<p align="center">
+  <img src="./assets/screenshot-1.png" alt="Lobbyte home screen" width="70%">
+</p>
+
+<p align="center">
+  <img src="./assets/screenshot-2.png" alt="Lobbyte chat room" width="70%">
+</p>
+
 ## Install
 
 Lobbyte supports macOS 12 or newer on Apple Silicon and Intel Macs, with Node.js 22 or newer.
